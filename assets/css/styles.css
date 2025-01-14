@@ -692,6 +692,9 @@ header .container {
   flex-direction: column;
   gap: 15px;
 }
+.content__item ol {
+  list-style: auto;
+}
 .content__item ul {
   margin-top: 15px;
 }
@@ -700,6 +703,10 @@ header .container {
 .content__item p:last-child,
 .content__item .content__table:last-child {
   margin-bottom: 0;
+}
+
+.content__table--style thead td {
+  background: linear-gradient(180deg, rgb(205, 220, 251) 0%, rgb(155, 186, 248) 100%);
 }
 
 .content__table table {
